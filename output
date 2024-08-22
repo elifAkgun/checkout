@@ -1,0 +1,28 @@
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Cart(items={1=DefaultItem(super=Item(itemId=1, categoryId=1001, sellerId=7677, price=Price(value=100.0), quantity=Quantity(value=5)), vasItems=[]), 2=DefaultItem(super=Item(itemId=2, categoryId=1001, sellerId=7677, price=Price(value=150.0), quantity=Quantity(value=2)), vasItems=[]), 3=DefaultItem(super=Item(itemId=3, categoryId=1002, sellerId=7677, price=Price(value=50.0), quantity=Quantity(value=1)), vasItems=[])}, totalAmount=600.00, totalDiscount=250.00, appliedPromotionId=1232)"}
+{"success":true,"message":"Item removed from the cart successfully!"}
+{"success":true,"message":"Cart reset successfully!"}
+{"success":true,"message":"Cart(items={}, totalAmount=0, totalDiscount=0.00, appliedPromotionId=null)"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Cart(items={4=DefaultItem(super=Item(itemId=4, categoryId=1003, sellerId=7678, price=Price(value=80.0), quantity=Quantity(value=3)), vasItems=[])}, totalAmount=240.00, totalDiscount=0.00, appliedPromotionId=null)"}
+{"success":true,"message":"Item removed from the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"VAS item added to the cart successfully!"}
+{"success":true,"message":"VAS item added to the cart successfully!"}
+{"success":true,"message":"Cart(items={6=DefaultItem(super=Item(itemId=6, categoryId=3004, sellerId=7680, price=Price(value=40.0), quantity=Quantity(value=2)), vasItems=[Item(itemId=7, categoryId=3242, sellerId=5003, price=Price(value=20.0), quantity=Quantity(value=1)), Item(itemId=8, categoryId=3242, sellerId=5003, price=Price(value=20.0), quantity=Quantity(value=1))]), 7=Item(itemId=7, categoryId=3242, sellerId=5003, price=Price(value=20.0), quantity=Quantity(value=1)), 8=Item(itemId=8, categoryId=3242, sellerId=5003, price=Price(value=20.0), quantity=Quantity(value=1))}, totalAmount=120.00, totalDiscount=0.00, appliedPromotionId=null)"}
+{"success":true,"message":"Cart reset successfully!"}
+{"success":true,"message":"Cart(items={}, totalAmount=0, totalDiscount=0.00, appliedPromotionId=null)"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"VAS item added to the cart successfully!"}
+{"success":true,"message":"Cart(items={7=DefaultItem(super=Item(itemId=7, categoryId=1001, sellerId=7681, price=Price(value=100.0), quantity=Quantity(value=2)), vasItems=[Item(itemId=7, categoryId=3242, sellerId=5003, price=Price(value=20.0), quantity=Quantity(value=1))]), 8=DefaultItem(super=Item(itemId=8, categoryId=1001, sellerId=7681, price=Price(value=100.0), quantity=Quantity(value=1)), vasItems=[]), 9=DefaultItem(super=Item(itemId=9, categoryId=1001, sellerId=7681, price=Price(value=100.0), quantity=Quantity(value=1)), vasItems=[])}, totalAmount=360.00, totalDiscount=40.00, appliedPromotionId=9909)"}
+{"success":true,"message":"Cart reset successfully!"}
+{"success":true,"message":"Cart(items={}, totalAmount=0, totalDiscount=0.00, appliedPromotionId=null)"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Item added to the cart successfully!"}
+{"success":true,"message":"Cart(items={9=DefaultItem(super=Item(itemId=9, categoryId=1008, sellerId=7683, price=Price(value=90.0), quantity=Quantity(value=1)), vasItems=[]), 13=DefaultItem(super=Item(itemId=13, categoryId=3003, sellerId=7687, price=Price(value=100.0), quantity=Quantity(value=1)), vasItems=[]), 14=DefaultItem(super=Item(itemId=14, categoryId=3003, sellerId=7688, price=Price(value=100.0), quantity=Quantity(value=1)), vasItems=[]), 15=DefaultItem(super=Item(itemId=15, categoryId=3003, sellerId=7689, price=Price(value=100.0), quantity=Quantity(value=1)), vasItems=[])}, totalAmount=375.00, totalDiscount=15.00, appliedPromotionId=5676)"}

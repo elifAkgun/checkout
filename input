@@ -1,0 +1,28 @@
+{"command": "addItem", "payload": {"itemId": 1,"categoryId": 1001, "sellerId": 7677, "price": 100.00, "quantity": 5 }}
+{"command": "addItem", "payload": {"itemId": 2,"categoryId": 1001, "sellerId": 7677, "price": 150.00, "quantity": 2 }}
+{"command": "addItem", "payload": {"itemId": 3,"categoryId": 1002, "sellerId": 7677, "price": 50.00, "quantity": 1 }}
+{"command": "displayCart"}
+{"command": "removeItem", "payload" : {"itemId": 1}}
+{"command": "resetCart"}
+{"command": "displayCart"}
+{"command": "addItem", "payload": {"itemId": 4,"categoryId": 1003, "sellerId": 7678, "price": 80.00, "quantity": 3 }}
+{"command": "displayCart"}
+{"command": "removeItem", "payload" : {"itemId": 4}}
+{"command": "addItem", "payload": {"itemId": 6,"categoryId": 3004, "sellerId": 7680, "price": 40.00, "quantity": 2 }}
+{"command": "addVasItemToItem", "payload": {"itemId": 6, "vasItemId":7, "vasCategoryId": 3242, "vasSellerId":5003, "price":20.00, "quantity":1}}
+{"command": "addVasItemToItem", "payload": {"itemId": 6, "vasItemId":8, "vasCategoryId": 3242, "vasSellerId":5003, "price":20.00, "quantity":1}}
+{"command": "displayCart"}
+{"command": "resetCart"}
+{"command": "displayCart"}
+{"command": "addItem", "payload": {"itemId": 7,"categoryId": 1001, "sellerId": 7681, "price": 100.00, "quantity": 1 }}
+{"command": "addItem", "payload": {"itemId": 8,"categoryId": 1001, "sellerId": 7681, "price": 100.00, "quantity": 1 }}
+{"command": "addItem", "payload": {"itemId": 9,"categoryId": 1001, "sellerId": 7681, "price": 100.00, "quantity": 1 }}
+{"command": "addVasItemToItem", "payload": {"itemId": 7, "vasItemId":7, "vasCategoryId": 3242, "vasSellerId":5003, "price":20.00, "quantity":1}}
+{"command": "displayCart"}
+{"command": "resetCart"}
+{"command": "displayCart"}
+{"command": "addItem", "payload": {"itemId": 13,"categoryId": 3003, "sellerId": 7687, "price": 100.00, "quantity": 1 }}
+{"command": "addItem", "payload": {"itemId": 14,"categoryId": 3003, "sellerId": 7688, "price": 100.00, "quantity": 1 }}
+{"command": "addItem", "payload": {"itemId": 15,"categoryId": 3003, "sellerId": 7689, "price": 100.00, "quantity": 1 }}
+{"command": "addItem", "payload": {"itemId": 9,"categoryId": 1008, "sellerId": 7683, "price": 90.00, "quantity": 1 }}
+{"command": "displayCart"}
