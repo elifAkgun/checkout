@@ -1,7 +1,7 @@
 package code.elif.checkout.commands;
 
 import code.elif.checkout.commands.payloads.RemoveItemPayload;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 
 public class RemoveItemCommand extends Command {
     private final CartService cartService;

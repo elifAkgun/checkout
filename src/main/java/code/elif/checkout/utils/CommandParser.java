@@ -5,7 +5,7 @@ import code.elif.checkout.commands.payloads.AbstractPayload;
 import code.elif.checkout.commands.payloads.AddItemPayload;
 import code.elif.checkout.commands.payloads.AddVasItemPayload;
 import code.elif.checkout.commands.payloads.RemoveItemPayload;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 import code.elif.checkout.enums.CommandType;
 import code.elif.checkout.exception.CommandException;
 import com.fasterxml.jackson.core.JsonProcessingException;

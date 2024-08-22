@@ -1,7 +1,7 @@
 package code.elif.checkout.commands;
 
 import code.elif.checkout.entity.cart.Cart;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 
 public class DisplayCartCommand extends Command {
     private final CartService cartService;

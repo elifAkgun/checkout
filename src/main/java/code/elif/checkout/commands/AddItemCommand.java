@@ -1,6 +1,6 @@
 package code.elif.checkout.commands;
 
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 import code.elif.checkout.commands.payloads.AddItemPayload;
 import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.dto.ItemDto;

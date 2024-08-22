@@ -1,7 +1,7 @@
 package code.elif.checkout.commands;
 
 import code.elif.checkout.entity.cart.Cart;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

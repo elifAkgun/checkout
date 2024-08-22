@@ -1,6 +1,6 @@
 package code.elif.checkout.commands;
 
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 
 public class ResetCartCommand extends Command {
     private final CartService cartService;

@@ -3,7 +3,7 @@ package code.elif.checkout.commands.addItem;
 import code.elif.checkout.commands.AddItemCommand;
 import code.elif.checkout.commands.Result;
 import code.elif.checkout.commands.payloads.AddItemPayload;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.dto.ItemDto;
 import org.junit.jupiter.api.BeforeEach;

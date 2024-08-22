@@ -1,4 +1,4 @@
-package code.elif.checkout.entity.cart.service;
+package code.elif.checkout.service;
 
 import code.elif.checkout.entity.cart.Cart;
 import code.elif.checkout.dto.ItemDto;

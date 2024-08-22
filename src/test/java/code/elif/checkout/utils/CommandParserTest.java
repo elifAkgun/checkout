@@ -3,7 +3,7 @@ package code.elif.checkout.utils;
 import code.elif.checkout.commands.AddItemCommand;
 import code.elif.checkout.commands.AddVasItemToItemCommand;
 import code.elif.checkout.commands.Command;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 import code.elif.checkout.exception.CommandException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import code.elif.checkout.commands.RemoveItemCommand;

@@ -3,7 +3,7 @@ package code.elif.checkout.commands.removeItem;
 import code.elif.checkout.commands.RemoveItemCommand;
 import code.elif.checkout.commands.Result;
 import code.elif.checkout.commands.payloads.RemoveItemPayload;
-import code.elif.checkout.entity.cart.service.CartService;
+import code.elif.checkout.service.CartService;
 import code.elif.checkout.exception.CartException;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
