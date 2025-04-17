@@ -3,9 +3,9 @@ package code.elif.checkout.commands.addVasItem;
 import code.elif.checkout.commands.AddVasItemToItemCommand;
 import code.elif.checkout.commands.Result;
 import code.elif.checkout.commands.payloads.AddVasItemPayload;
-import code.elif.checkout.service.CartService;
-import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.dto.ItemDto;
+import code.elif.checkout.enums.ItemType;
+import code.elif.checkout.service.CartService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

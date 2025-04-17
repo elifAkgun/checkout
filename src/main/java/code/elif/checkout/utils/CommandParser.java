@@ -5,9 +5,9 @@ import code.elif.checkout.commands.payloads.AbstractPayload;
 import code.elif.checkout.commands.payloads.AddItemPayload;
 import code.elif.checkout.commands.payloads.AddVasItemPayload;
 import code.elif.checkout.commands.payloads.RemoveItemPayload;
-import code.elif.checkout.service.CartService;
 import code.elif.checkout.enums.CommandType;
 import code.elif.checkout.exception.CommandException;
+import code.elif.checkout.service.CartService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -23,6 +23,13 @@ public class CommandParser {
 
     public CommandParser(CartService cartService) {
         this.cartService = cartService;
+    }
+
+    private static <T extends AbstractPayload> T getPayload(String jsonString, Class<T> valueType) throws JsonProcessingException {
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode rootNode = mapper.readTree(jsonString);
+        JsonNode payloadNode = rootNode.path(PAYLOAD);
+        return mapper.readValue(payloadNode.toString(), valueType);
     }
 
     public Command parseCommand(String jsonString) throws JsonProcessingException {
@@ -55,13 +62,6 @@ public class CommandParser {
             }
             default -> throw new CommandException(UNKNOWN_COMMAND + commandName);
         }
-    }
-
-    private static <T extends AbstractPayload> T getPayload(String jsonString, Class<T> valueType) throws JsonProcessingException {
-        ObjectMapper mapper = new ObjectMapper();
-        JsonNode rootNode = mapper.readTree(jsonString);
-        JsonNode payloadNode = rootNode.path(PAYLOAD);
-        return mapper.readValue(payloadNode.toString(), valueType);
     }
 }
 

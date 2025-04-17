@@ -3,13 +3,13 @@ package code.elif.checkout;
 import code.elif.checkout.commands.Command;
 import code.elif.checkout.commands.Result;
 import code.elif.checkout.entity.cart.Cart;
-import code.elif.checkout.service.CartService;
-import code.elif.checkout.service.PromotionService;
 import code.elif.checkout.entity.promotions.CategoryPromotion;
 import code.elif.checkout.entity.promotions.Promotion;
 import code.elif.checkout.entity.promotions.SameSellerPromotion;
 import code.elif.checkout.entity.promotions.TotalPricePromotion;
 import code.elif.checkout.exception.CommandException;
+import code.elif.checkout.service.CartService;
+import code.elif.checkout.service.PromotionService;
 import code.elif.checkout.utils.CommandParser;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -73,14 +73,14 @@ public class App {
     }
 
     private static void logInitialization() {
-            System.out.println("Initializing the application with the following settings:");
-            System.out.println("Default input file name is 'input' if no argument is provided.");
-            System.out.println("Default output file name is 'output' if no argument is provided.");
-            System.out.println("To set custom file paths, provide arguments as follows:");
-            System.out.println("java App [inputFilePath] [outputFilePath]");
-            System.out.println("Example: java App customInput.txt customOutput.txt");
-            System.out.println("If no arguments are provided, you will be prompted to enter the file paths.");
-            System.out.println("--------------------------------------------------");
+        System.out.println("Initializing the application with the following settings:");
+        System.out.println("Default input file name is 'input' if no argument is provided.");
+        System.out.println("Default output file name is 'output' if no argument is provided.");
+        System.out.println("To set custom file paths, provide arguments as follows:");
+        System.out.println("java App [inputFilePath] [outputFilePath]");
+        System.out.println("Example: java App customInput.txt customOutput.txt");
+        System.out.println("If no arguments are provided, you will be prompted to enter the file paths.");
+        System.out.println("--------------------------------------------------");
     }
 
     private static String getInputFromUser(String fileType) {

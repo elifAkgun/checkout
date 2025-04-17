@@ -1,9 +1,9 @@
 package code.elif.checkout.entity.cart;
 
-import code.elif.checkout.entity.items.VasItem;
 import code.elif.checkout.entity.items.DefaultItem;
 import code.elif.checkout.entity.items.DigitalItem;
 import code.elif.checkout.entity.items.Item;
+import code.elif.checkout.entity.items.VasItem;
 import code.elif.checkout.exception.CartException;
 import code.elif.checkout.valueobjects.Discount;
 import code.elif.checkout.valueobjects.Quantity;

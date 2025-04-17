@@ -10,9 +10,10 @@ import java.math.RoundingMode;
 @ToString
 @EqualsAndHashCode
 public class Discount implements Comparable<Discount> {
+    public static final Discount ZERO_DISCOUNT = new Discount(BigDecimal.ZERO, null);
     private final BigDecimal value;
     private final Integer promotionId;
-    public static final Discount ZERO_DISCOUNT = new Discount(BigDecimal.ZERO, null);
+
     public Discount(BigDecimal value, Integer promotionId) {
         this.promotionId = promotionId;
         if (value == null || value.compareTo(BigDecimal.ZERO) < 0) {

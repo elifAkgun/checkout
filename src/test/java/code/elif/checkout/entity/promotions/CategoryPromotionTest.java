@@ -1,8 +1,8 @@
 package code.elif.checkout.entity.promotions;
 
 import code.elif.checkout.entity.cart.Cart;
-import code.elif.checkout.valueobjects.Discount;
 import code.elif.checkout.entity.items.DefaultItem;
+import code.elif.checkout.valueobjects.Discount;
 import code.elif.checkout.valueobjects.Price;
 import code.elif.checkout.valueobjects.Quantity;
 import org.junit.jupiter.api.Test;

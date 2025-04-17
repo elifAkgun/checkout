@@ -13,15 +13,15 @@ public class CategoryPromotion implements Promotion {
 
     @Override
     public Discount apply(Cart cart) {
-            BigDecimal discount = BigDecimal.ZERO;
-            for (Item item : cart.getItems().values()) {
-                if (item.getCategoryId().equals(TARGET_CATEGORY_ID)) {
-                    BigDecimal itemDiscount = item.getPrice().getValue().multiply(DISCOUNT_RATE)
-                            .multiply(new BigDecimal(item.getQuantity().getValue()));
-                    discount = discount.add(itemDiscount);
-                }
+        BigDecimal discount = BigDecimal.ZERO;
+        for (Item item : cart.getItems().values()) {
+            if (item.getCategoryId().equals(TARGET_CATEGORY_ID)) {
+                BigDecimal itemDiscount = item.getPrice().getValue().multiply(DISCOUNT_RATE)
+                        .multiply(new BigDecimal(item.getQuantity().getValue()));
+                discount = discount.add(itemDiscount);
             }
-            return BigDecimal.ZERO.compareTo(discount) < 0 ?
-                    new Discount(discount, PROMOTION_ID) :  Discount.ZERO_DISCOUNT;
+        }
+        return BigDecimal.ZERO.compareTo(discount) < 0 ?
+                new Discount(discount, PROMOTION_ID) : Discount.ZERO_DISCOUNT;
     }
 }

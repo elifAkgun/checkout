@@ -1,9 +1,9 @@
 package code.elif.checkout.commands;
 
-import code.elif.checkout.service.CartService;
 import code.elif.checkout.commands.payloads.AddVasItemPayload;
-import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.dto.ItemDto;
+import code.elif.checkout.enums.ItemType;
+import code.elif.checkout.service.CartService;
 
 
 public class AddVasItemToItemCommand extends Command {

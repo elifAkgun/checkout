@@ -29,11 +29,11 @@ public abstract class Item {
     /**
      * Constructs an Item with the specified properties.
      *
-     * @param itemId the ID of the item
+     * @param itemId     the ID of the item
      * @param categoryId the category ID of the item
-     * @param sellerId the seller ID of the item
-     * @param price the price of the item
-     * @param quantity the quantity of the item
+     * @param sellerId   the seller ID of the item
+     * @param price      the price of the item
+     * @param quantity   the quantity of the item
      */
     protected Item(Integer itemId, Integer categoryId, Integer sellerId, Price price, Quantity quantity) {
         this.itemId = itemId;

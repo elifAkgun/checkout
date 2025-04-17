@@ -121,7 +121,7 @@ class CartTest {
     void givenCartWithMaxTotalAmount_whenAddItem_thenThrowsCartException() {
         // Given
         for (int i = 0; i < 5; i++) {
-            ItemDto itemDto = new ItemDto(i + 1, 1001, 1, new BigDecimal(90000), 1, null,ItemType.DEFAULT);
+            ItemDto itemDto = new ItemDto(i + 1, 1001, 1, new BigDecimal(90000), 1, null, ItemType.DEFAULT);
             cart.addItem(ItemFactory.createItem(itemDto));
         }
         // Add VasItem with price 10 TL

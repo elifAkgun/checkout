@@ -1,11 +1,11 @@
 package code.elif.checkout.entity.promotions;
 
+import code.elif.checkout.dto.ItemDto;
 import code.elif.checkout.entity.cart.Cart;
+import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.service.CartService;
 import code.elif.checkout.service.PromotionService;
-import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.valueobjects.Discount;
-import code.elif.checkout.dto.ItemDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -88,10 +88,10 @@ class PromotionTest {
         // Mocking promotion service to apply a 10% discount
         when(promotionServiceMock.getBestPromotion(cartMock))
                 .thenAnswer(invocation -> {
-            Cart cart = invocation.getArgument(0);
-            when(cart.getTotalAmount()).thenReturn(new BigDecimal("270.00")); // 10% discount applied
-            return new Discount(BigDecimal.valueOf(30), 2);
-        });
+                    Cart cart = invocation.getArgument(0);
+                    when(cart.getTotalAmount()).thenReturn(new BigDecimal("270.00")); // 10% discount applied
+                    return new Discount(BigDecimal.valueOf(30), 2);
+                });
 
         // When
         cartService.addItem(itemDto1);

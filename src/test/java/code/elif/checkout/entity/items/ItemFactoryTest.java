@@ -1,7 +1,7 @@
 package code.elif.checkout.entity.items;
 
-import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.dto.ItemDto;
+import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.exception.ItemFactoryException;
 import org.junit.jupiter.api.Test;
 

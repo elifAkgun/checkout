@@ -9,9 +9,9 @@ import lombok.Getter;
 @Getter
 @EqualsAndHashCode(callSuper = false)
 public class VasItem extends Item {
+    public static final int VAS_ITEM_MAX_QUANTITY = 3;
     private static final int VAS_CATEGORY_ID = 3242;
     private static final int VAS_SELLER_ID = 5003;
-    public static final int VAS_ITEM_MAX_QUANTITY = 3;
     private final Integer parentItemId;
 
     public VasItem(Integer parentItemId, Integer vasItemId, Integer vasCategoryId, Integer vasSellerId, Price price, Quantity quantity) {

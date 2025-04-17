@@ -1,8 +1,8 @@
 package code.elif.checkout.entity.items;
 
+import code.elif.checkout.exception.DefaultItemException;
 import code.elif.checkout.valueobjects.Price;
 import code.elif.checkout.valueobjects.Quantity;
-import code.elif.checkout.exception.DefaultItemException;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 

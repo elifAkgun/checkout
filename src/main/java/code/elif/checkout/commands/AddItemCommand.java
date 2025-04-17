@@ -1,9 +1,9 @@
 package code.elif.checkout.commands;
 
-import code.elif.checkout.service.CartService;
 import code.elif.checkout.commands.payloads.AddItemPayload;
-import code.elif.checkout.enums.ItemType;
 import code.elif.checkout.dto.ItemDto;
+import code.elif.checkout.enums.ItemType;
+import code.elif.checkout.service.CartService;
 
 import static code.elif.checkout.enums.ItemType.DEFAULT;
 import static code.elif.checkout.enums.ItemType.DIGITAL;

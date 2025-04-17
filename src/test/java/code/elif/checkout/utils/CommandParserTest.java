@@ -3,10 +3,10 @@ package code.elif.checkout.utils;
 import code.elif.checkout.commands.AddItemCommand;
 import code.elif.checkout.commands.AddVasItemToItemCommand;
 import code.elif.checkout.commands.Command;
-import code.elif.checkout.service.CartService;
-import code.elif.checkout.exception.CommandException;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import code.elif.checkout.commands.RemoveItemCommand;
+import code.elif.checkout.exception.CommandException;
+import code.elif.checkout.service.CartService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;

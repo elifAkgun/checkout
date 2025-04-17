@@ -1,13 +1,13 @@
 package code.elif.checkout.entity.cart.service;
 
 import code.elif.checkout.entity.cart.Cart;
-import code.elif.checkout.entity.promotions.Promotion;
-import code.elif.checkout.service.PromotionService;
-import code.elif.checkout.valueobjects.Discount;
 import code.elif.checkout.entity.items.DefaultItem;
 import code.elif.checkout.entity.promotions.CategoryPromotion;
+import code.elif.checkout.entity.promotions.Promotion;
 import code.elif.checkout.entity.promotions.SameSellerPromotion;
 import code.elif.checkout.entity.promotions.TotalPricePromotion;
+import code.elif.checkout.service.PromotionService;
+import code.elif.checkout.valueobjects.Discount;
 import code.elif.checkout.valueobjects.Price;
 import code.elif.checkout.valueobjects.Quantity;
 import org.junit.jupiter.api.Test;
